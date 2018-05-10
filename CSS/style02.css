@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */ 
+body{
+ padding:0;
+ margin:0;
+ font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ background-color:#FFFFFF;
+}
+.header{
+	width:100%;
+	height:auto;
+	background-color:#111111;
+	text-align:right;
+    font-size:38px;
+	color:#D4D4D4;
+	float:left;
+	position:fixed;
+	box-sizing:border-box;
+	box-shadow: 0 0 15px rgba(0,0,0,1.00);
+}
+.logo{
+	width:40%;
+	height:auto;
+	padding-top:25px;
+	padding-bottom:35px;
+	float:left;
+	box-sizing:border-box;
+	font-weight:bold;
+}
+.list{
+    width:60%;
+	height:auto;
+	padding-top:60px;
+	padding-left:200px;
+	padding-right:50px;
+	padding-bottom:0px;
+    float:left;
+	box-sizing:border-box;
+}
+.items{
+	font-size:24px;
+	width:25%;
+	height:auto;
+	float:left;
+	box-sizing:border-box;
+	padding-left:0px;
+	padding-right:10px;
+}
+.items1{
+	font-size:24px;
+	width:25%;
+	height:auto;
+	float:left;
+	box-sizing:border-box;
+	padding-left:0px;
+	padding-right:30px;
+}
+.items2{
+	font-size:24px;
+	width:25%;
+	height:auto;
+	float:left;
+	box-sizing:border-box;
+	padding-left:0px;
+	padding-right:130px;
+}
+a:link {
+	color:#E7E0E0;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#E7E0E0;	
+}
+a:hover#ho{
+background-color:#FFFFFF;
+color:#111111;	
+box-shadow: 0 0 120px rgba(0,0,0,1.00);
+padding:0px;
+font-size:inherit;	
+}
+
+a:hover{
+background-color:#FFFFFF;
+color:#111111;	
+box-shadow: 0 0 120px rgba(0,0,0,1.00);
+padding:10px;
+font-size:inherit;
+border-radius:10px;	
+}
+
+.container{
+	width:100%;
+	height:auto;
+	float:left;
+	box-sizing:border-box;
+}
+.section{
+	width:60%;
+	height:auto;
+	margin-left:300px;
+	margin-top:20px;
+	border-radius:10px;	
+	float:left;
+	box-sizing:border-box;
+	background-color:#FFFFFF;
+	font-size:30px;
+	text-align:center;
+	padding:50px;
+	box-shadow: 0 0 120px rgba(0,0,0,1.00);
+}
+
+.div4{ 
+width:50px; 
+height:50px;
+border-radius:25px;
+position:fixed;
+bottom:50px;
+right:30px;
+box-shadow: 0 0 30px rgba(2,0,255,1.00);
+color:inherit;
+}
+
+input#submit{
+	background-color:#000000;
+    border: none;
+    color: #D4D4D4;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:10px;
+    box-shadow: 0 0 60px rgba(255,251,251,1.00);
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;	
+}
+
+.footer{
+width:100%;
+height:auto;
+background-color:#000000;
+color:#D4D4D4;
+padding:25px;
+text-align:center;
+box-shadow: 0 0 120px rgba(0,0,0,1.00);
+font-size:24px;
+font-weight:bold;
+float:left;
+box-sizing:border-box;
+margin-top:25px;	
+}

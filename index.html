@@ -1,0 +1,163 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Index</title>
+<link href="CSS/style03.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="header">
+<div class="logo" id="logo">
+Encryption & Decryption
+</div>
+<div class="list">
+<div class="items">
+<a href="index.html" target="_self">Home</a>
+</div>
+<div class="items">
+<a href="encrypt.html" target="_self">Encryption</a>
+</div>
+
+<div class="items1">
+<a href="results.html" target="_self">Results</a>
+</div>
+
+<div class="items2">
+<a href="about.html" target="_self">About</a>
+</div>
+
+
+
+</div>
+</div>
+<br id="b1">
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+<div class="section">
+What is Encryption?
+<h4 class="p1">
+<p>Encryption is the process of encoding messages or information in such a way that only authorized parties can read it.<br><br>
+In an encryption scheme, the intended communication message, referred to as plaintext, is encrypted using an encryption algorithm, generating ciphertext that can only be read if decrypted.</p></h4>
+</div>
+</div>
+
+<div class="container">
+<div class="section">
+KEYS
+<h4 class="p1">
+<p>Encryption and Decryption keys are required to
+create encrypted datas writable and readable.<br>
+   Without these two keys it is difficult or nearly impossible for the two communicator to maintain a stable interaction.</p></h4>
+ </div>
+</div>
+
+<div class="container">
+<div class="section">
+TYPES OF KEYS
+<h4 class="p1">
+<p><u><center>Symmetric key:</center></u><br>
+ In symmetric-key schemes, the encryption and decryption keys are the same. Communicating parties must have the same key before they can achieve secure communication.</p>
+ <p><u><center>Public key:</center></u><br>
+In public-key encryption schemes, the encryption key is published for anyone to use and encrypt messages. However, only the receiving party has access to the decryption key that enables messages to be read.</p>
+</h4>
+</div>
+</div>
+
+<div class="container">
+<div class="section">
+USES
+<h4 class="p1">
+<p>Encryption has long been used by military and governments to facilitate secret communication. It is now commonly used in protecting information within many kinds of civilian systems.</p>
+<p>Encryption is also used to protect data in transit, for example data being transferred via networks (e.g. the Internet, e-commerce), mobile telephones, wireless microphones, wireless intercom systems, Bluetooth devices and bank automatic teller machines.</p>
+</h4>
+</div>
+</div>
+
+<div class="container">
+<div class="section">
+<u>AIM:</u>
+<h4 class="p1">
+<p>To create a program in C language for <b>Encryption</b> and <b>decryption</b> of phrases while interacting with user via <b>webpage</b> for input and output.</p>
+</h4>
+</div>
+</div>
+
+<div class="container">
+<div class="section">
+<u>Technique used:</u>
+<h4>
+<p><b>Left shift</b> and <b>Right shift</b></p>
+</h4>
+</div>
+</div>
+
+<div class="container">
+<div class="section">
+<u>Languages used:</u>
+<h4>
+<p class="p1">
+1) C Language (Program coding)<br>
+2) HTML (Creating the webpage)<br>
+3) CSS (Styling the webpage)<br>
+4) PHP (Connecting the program and the webpage)
+
+</p>
+</h4>
+</div>
+</div>
+
+<div class="container">
+<div class="section">
+<u>Algorithm used:</u>
+<h4>
+<p class="p2">
+Encrypt (phase)<br>
+Step 1: Set n = length of phase<br>
+Step 2: Set i = 0<br>
+Step3: Repeat step 4 and step 5 while phase[i]!=‘\0’<br>
+Step 4: Phase[i]=phase[i]+(n++*(-1))<br>
+Step 5: i++<br>
+Step 6: Return phase<br>
+Step 7: Exit<br><br>
+Decrypt (phase)<br>
+Step 1: Set n = length of phase<br>
+Step 2: Set i = 0<br>
+Step3: Repeat step 3 and step 4 while phase[i]!=‘\0’<br>
+Step 4: Phase[i]=phase[i]-(n++*(-1))<br>
+Step 5: i++<br>
+Step 6: Return phase<br>
+Step 7: Exit
+
+</p>
+</h4>
+</div>
+</div>
+
+<div class="container">
+<div class="section">
+<u>Live Demo</u>
+<h4>
+<a href="encrypt.html" target="_self">Lets Go >></a>
+</h4>
+</div>
+</div>
+
+<div class="div4">
+      <a href="#b1" class="text2" id="ho"><center>
+      <img src="image/arrow.png" height="50px" width="50px"></center></a>
+</div>
+
+<div class="footer">
+B.Tech CSE Sec-A Group no.7 Term Paper 
+
+
+</div>
+
+
+
+</body>
+</html>
